@@ -7,7 +7,7 @@ namespace Task
         public static (short, short) GetValues(string path)
         {
             if (!File.Exists(path))
-                throw new FileNotFoundException();
+                throw new FileNotFoundException("Input.txt is not found!");
 
             string text = File.ReadAllText(path);
             short[] vals = text.Split(new[] { ' ', ',', }, StringSplitOptions.RemoveEmptyEntries)
@@ -39,7 +39,7 @@ namespace Task
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine($"{ex.GetType().Name}: {ex.Message}");
             }
         }
     }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKR1_ShapovalVolodymyr", "MKR1_ShapovalVolodymyr\MKR1_ShapovalVolodymyr.csproj", "{771DAE0B-57B6-4915-8D3C-7F41080C4B9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task", "Task\Task.csproj", "{12FB666A-7A24-4ACC-A459-117763FA9C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5C209823-8983-4031-A8E6-4F3833FAA2DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{771DAE0B-57B6-4915-8D3C-7F41080C4B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{771DAE0B-57B6-4915-8D3C-7F41080C4B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{771DAE0B-57B6-4915-8D3C-7F41080C4B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{771DAE0B-57B6-4915-8D3C-7F41080C4B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FB666A-7A24-4ACC-A459-117763FA9C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FB666A-7A24-4ACC-A459-117763FA9C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FB666A-7A24-4ACC-A459-117763FA9C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FB666A-7A24-4ACC-A459-117763FA9C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C209823-8983-4031-A8E6-4F3833FAA2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C209823-8983-4031-A8E6-4F3833FAA2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C209823-8983-4031-A8E6-4F3833FAA2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C209823-8983-4031-A8E6-4F3833FAA2DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
